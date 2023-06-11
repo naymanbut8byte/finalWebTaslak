@@ -1,0 +1,42 @@
+.card{
+     display: flex;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 50px 25px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.img{
+  width: 300px;
+    height: auto;
+ }
+ .img1{
+  width: 250px;
+    height: auto;
+ }
+  
+ .button{
+  margin: 30px;
+ font-size: 18px;
+ height: 65px;
+ width: 250px;
+ border-radius: 10px;
+ border: none;
+ box-shadow: 1px 1px 0px 2px rgba (0,0,0,0.3);
+ background: #22bcc7;
+  cursor: pointer;
+  justify-content: center;
+}
+ .card  :hover{
+  transform: scale(1.08);
+ }
